@@ -1,4 +1,4 @@
-package Assignment;
+package Assignment3;
 
 public class Assignment3_1_EmpTable {
 	

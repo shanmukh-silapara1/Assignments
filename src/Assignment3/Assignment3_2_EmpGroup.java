@@ -1,4 +1,4 @@
-package Assignment;
+package Assignment3;
 
 public class Assignment3_2_EmpGroup {
 
@@ -7,7 +7,7 @@ public class Assignment3_2_EmpGroup {
 	static int ids[]= {1234,1235,1236};
 
 public Assignment3_2_EmpGroup(String[] names, int[] ids) {
-// TODO Auto-generated constructor stub
+
 }
 public static void main(String[] args) {
 
@@ -16,13 +16,13 @@ public static void main(String[] args) {
 	Assignment3_2_EmpGroup group = new Assignment3_2_EmpGroup(names, ids);
 
 // Display employee information
-group.displayEmployees();
-
+    group.displayEmployees();
 
 }
+
 // Method to display employee details
-public void displayEmployees() {
-System.out.println("Employee List:");
+    public void displayEmployees() {
+           System.out.println("Employee List:");
 for (int i = 0; i < names.length; i++) {
     System.out.println("ID: " + ids[i] + " | Name: " + names[i]);
     }
