@@ -7,13 +7,16 @@ public class DimondPattern {
 		int n=5;
 		
 		//upper pyramid
+		// rows
 		for(int i=1;i<=n;i++)
 		{
 			int p=1;
+			//columns
 			for(int j=1;j<=n-i;j++)
 			{
 				System.out.print(" ");
 			}
+			//Pyramid logic  spaces and required numbers
 			for(int k=1;k<=2*i-1;k++)
 			{
 				if((k%2)==0)
@@ -30,15 +33,19 @@ public class DimondPattern {
 		}
 		
 		//lower pyramid
+		// rows
 		for(int i=n;i>=1;i--)
 		{
 			int p=1;
+			
 			for(int j=1;j<=n-i;j++)
 			{
 				System.out.print(" ");
 			}
+			//Pyramid logic  spaces and required numbers
 			for(int k=1;k<=2*i-1;k++)
 			{
+				//columns
 				if((k%2)==0)
 				{
 					System.out.print(p);
